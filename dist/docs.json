@@ -1,0 +1,47 @@
+{
+  "api": {
+    "name": "FacebookEventsPlugin",
+    "slug": "facebookeventsplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "setAdvertiserTrackingEnabled",
+        "signature": "(options: { enabled: boolean; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ enabled: boolean; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setadvertisertrackingenabled"
+      },
+      {
+        "name": "logEvent",
+        "signature": "(options: { event: string; params?: any; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ event: string; params?: any; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "logevent"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
